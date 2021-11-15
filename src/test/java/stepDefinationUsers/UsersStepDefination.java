@@ -105,7 +105,7 @@ public class UsersStepDefination {
      Assert.assertEquals("Janet", firstName);
      Users users = response.getBody().as(Users.class);
      System.out.println("the response body of users:" +users.getData().getEmail());
-     System.out.println("the response body of users :" +users.getSupport().getUrl());
+     System.out.println("the response body of users entity :" +users.getSupport().getUrl());
 
     }
 
